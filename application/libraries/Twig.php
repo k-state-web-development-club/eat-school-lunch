@@ -45,7 +45,7 @@ class Twig
 		// default config
 		$this->config = [
 			'paths' => [VIEWPATH],
-			'cache' => APPPATH . '/cache/twig',
+			'cache' => VIEWPATH . 'cache/twig',
 		];
 
 		$this->config = array_merge($this->config, $params);
