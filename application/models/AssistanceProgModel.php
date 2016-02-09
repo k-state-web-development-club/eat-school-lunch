@@ -6,7 +6,7 @@ class AssistanceProgModel extends MY_Model {
   function __construct() {
     parent::__construct();
     $this->table = 'assistanceProg';
-    $this->id = 'assistanceProgId';
+    $this->id    = 'assistanceProgId';
   }
 
   function getByHouseHoldId($householdId) {

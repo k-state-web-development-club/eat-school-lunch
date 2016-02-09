@@ -14,7 +14,7 @@ class AdultModel extends MY_Model {
     function __construct() {
         parent::__construct();
         $this->table = 'adult'; // table name
-        $this->id = 'adultId'; // primary key of the table
+        $this->id    = 'adultId'; // primary key of the table
     }
 
     function getByPersonId($personId) {

@@ -6,7 +6,7 @@ class AdultIncomeTypeModel extends My_Model {
     function __construct() {
         parent::_construct();
         $this->table = 'adultIncomeType';
-        $this->id = 'adultIncomeTypeId';
+        $this->id    = 'adultIncomeTypeId';
     }
 
 }
