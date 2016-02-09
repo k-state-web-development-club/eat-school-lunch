@@ -6,7 +6,7 @@ class ApplicantModel extends MY_Model{
   function __construct(){
     parent::__construct();
     $this->table = 'applicant';
-    $this->id = 'applicantId';
+    $this->id    = 'applicantId';
   }
 
 }
