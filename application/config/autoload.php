@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database', 'twig');
+$autoload['libraries'] = array('database', 'twig', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
@@ -126,4 +126,7 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('AdultIncomeModel',
+'AdultIncomeTypeModel', 'AdultModel', 'ApplicantModel', 'ApplicationModel',
+'AssistanceProgModel', 'ChildIncomeModel', 'ChildModel', 'PayFrequencyModel',
+ 'PersonModel', 'SsnLastFourModel');
