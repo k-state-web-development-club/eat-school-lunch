@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class AduleIncomeModel extends MY_Model {
+class AdultIncomeModel extends MY_Model {
 
   function __construct() {
     parent:: __construct();
