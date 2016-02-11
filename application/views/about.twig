@@ -1,0 +1,22 @@
+{% extends 'base.twig' %}
+
+{% block head %}
+  {{parent()}}
+  <style>
+    .menu a{
+      color: #febd15;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+   Age: {{ user_info.age }}<br>Address: {{ user_info.address }}
+
+   asdf: {{ user_info.testing }}
+
+   <a>asdfasdfasf</a>
+
+   <script>
+     $('body')
+   </script>
+{% endblock %}
