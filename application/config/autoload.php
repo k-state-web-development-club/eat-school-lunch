@@ -126,7 +126,16 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('AdultIncomeModel',
-'AdultIncomeTypeModel', 'AdultModel', 'ApplicantModel', 'ApplicationModel',
-'AssistanceProgModel', 'ChildIncomeModel', 'ChildModel', 'PayFrequencyModel',
- 'PersonModel', 'SsnLastFourModel');
+$autoload['model'] = array(
+    'AdultIncomeModel',
+    'AdultIncomeTypeModel',
+    'AdultModel',
+    'ApplicantModel',
+    'ApplicationModel',
+    'AssistanceProgModel',
+    'ChildIncomeModel',
+    'ChildModel',
+    'PayFrequencyModel',
+    'PersonModel',
+    'SsnLastFourModel'
+);
