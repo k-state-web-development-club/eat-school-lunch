@@ -1,0 +1,26 @@
+/* ------------ Custom CSS ----------- */
+
+/* Change the header link color */
+.title-bar-title a {
+  color: #FFF;
+}
+
+/* Fix outline on hamburger menu */
+.title-bar .menu-icon {
+  outline: 0;
+}
+
+/* Fix the navigation height */
+.menu>li>a {
+  padding: 0;
+}
+
+/* Hides the second title on tablet/mobile */
+@media only screen and (max-width: 639px) {
+  .menu-text {
+    display: none !important;
+  }
+  .menu>li>a {
+    padding: .7rem 1rem !important;
+  }
+}
