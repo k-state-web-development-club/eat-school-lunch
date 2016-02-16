@@ -13,7 +13,8 @@ class Application extends CI_Controller {
         // and it's values can be accessed through their
         // corresponding key
         $data = array(
-            'testVariable' => 'Hello, World!'
+            'testVariable' => 'Hello, World!',
+            'anotherVar' => 'test'
         );
         $this->twig->display('welcome_message', $data);
     }
@@ -28,9 +29,6 @@ class Application extends CI_Controller {
 
     // URL: http://<username>.atodd.me/step/$1
     function step($stepNum = false) {
-        $data = array(
-            'testVariable' => 'Hello, World!'
-        );
 
         // If no step number was provided, 404
         if (!$stepNum)
@@ -41,7 +39,7 @@ class Application extends CI_Controller {
         if (!file_exists(APPPATH.'views/steps/'.$stepNum.'.twig'))
             show_404();
 
+
         $this->twig->display('steps/'.$stepNum, $data);
     }
-
 }

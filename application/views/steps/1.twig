@@ -1,7 +1,20 @@
 {% extends 'base.twig' %}
 
 {% block content %}
-    <div id="step-1">
-        Hi, this is where step one will go
+
+<form action="url/of/controller/function/that/runs/this/form">
+  <div class="container">
+    <div class="row">
+      <div id="step-1" class="large-6 large-offset-3 small-12 columns">
+        <label>First Name
+            <input type="text" placeholder="Enter your first name" name="firstName" />
+        </label>
+        <label>Last Name
+            <input type="text" placeholder="Enter your last name" name="lastName" />
+        </label>
+      </div>
     </div>
+  </div>
+  <!-- submit button -->
+</form>
 {% endblock %}
