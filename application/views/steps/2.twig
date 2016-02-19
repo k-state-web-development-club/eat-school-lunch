@@ -2,6 +2,50 @@
 
 {% block content %}
     <div id="step-2">
-        Hi, this is where step two will go
+
+    <form action="url/of/controller/function/that/runs/this/form">
+    <div class= "row" >
+      <div id="step-2" class="large-6 large-offset-3 small-12 columns">
+        <p class="panel">
+       <label>How many infants, children, and students up to and including grade 12 are Household Members?
+        <input type="number" placeholder="ex. 5)">
+        </label>
+
+        <fieldset>
+        <legend>Child Form</legend>
+        <label>First Name
+          <input type="text" placeholder="First Name">
+        </label>
+        <label>Middle Initial
+          <input type="text" placeholder="Middle Initial">
+        </label>
+        <label>Last Name
+          <input type="text" placeholder="Last Name">
+        </label>
+          <div class = "status-row">
+            <label>Student?</label>
+            <input type="radio" name="Yes" required>Yes
+            <input type="radio" name="No">No
+          </div>
+          <div class = "status-row">
+            <label>Foster Child?</label>
+            <input type="radio" name="Yes" required>Yes
+            <input type="radio" name="No">No
+          </div>
+          <div class = "status-row">
+            <label>Homeless,Migrant,Runaway?</label>
+            <input type="radio" name="Yes" required>Yes
+            <input type="radio" name="No">No
+          </div>
+          <button class="button nice">Submit</button>
+        </p>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+
+
     </div>
 {% endblock %}
