@@ -2,6 +2,28 @@
 
 {% block content %}
     <div id="step-3">
-        Hi, this is where step three will go
+
+    <form action="url/of/controller/function/that/runs/this/form">
+    <div class= "row" >
+      <div id="step-2" class="large-6 large-offset-3 small-12 columns">
+        <p class="panel">
+            <label>
+              Do any household members (including you) currently participate in one or
+              more of the following assistance programs: SNAP, TNAF, or FDPIR
+              <input type="checkbox" name="yes" value="yes">Yes<br>
+              <input type="checkbox" name="no" value="no"> No<br>
+            </label>
+
+        <fieldset>
+            <legend>Case Number</legend>
+              <label>Case Number
+              <input type="text" placeholder="Case Number">
+            </label>
+            <button class="button nice">Submit</button>
+        </fieldset>
+      </p>
     </div>
+  </div>
+  </form>
+</div>
 {% endblock %}
