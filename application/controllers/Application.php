@@ -40,6 +40,6 @@ class Application extends CI_Controller {
             show_404();
 
 
-        $this->twig->display('steps/'.$stepNum, $data);
+        $this->twig->display('steps/'.$stepNum);
     }
 }
