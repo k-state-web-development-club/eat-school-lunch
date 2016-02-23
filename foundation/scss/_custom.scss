@@ -1,0 +1,39 @@
+// ------------ Custom Styles ----------- //
+$white: #fff;
+$green: #1bd964;
+$blue: #0272fc;
+$purple: #8649ba;
+$orange: #ff772b;
+$red: #f84339;
+
+// Center Headings //
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+// Change the header link color //
+.title-bar-title a {
+  color: $white;
+}
+// Fix outline on hamburger menu //
+.title-bar .menu-icon {
+  outline: 0;
+}
+// Fix the navigation height //
+.menu>li>a {
+  padding: 0;
+}
+// Hides the second title on tablet/mobile //
+@media only screen and (max-width: 639px) {
+  .menu-text {
+    display: none;
+  }
+
+  .menu>li>a {
+    padding: .7rem 1rem;
+  }
+}
