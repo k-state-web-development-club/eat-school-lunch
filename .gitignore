@@ -10,7 +10,7 @@ application/logs/*
 
 application/views/cache/twig/*
 
-application/assets/app.css
+application/assets/css/app.css
 
 application/config/database.php
 
